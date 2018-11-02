@@ -1,0 +1,124 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\graphicspath{ {images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
+
+%Skype information - include your Skype name for a link to add you on Skype
+\newcommand*{\Skype}{\href{skype:john.smith?add}{john.smith}} 
+\newcommand{\Absender}[1][\normalsize]{\Skype} 
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+\begin{center}
+\noindent  \LARGE{\textbf{Jeseng Yeon}}
+%\vspace{2ex}
+\end{center}
+
+%\hline 
+\normalsize
+
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+
+
+%\begin{tabular}
+\vspace{-3ex}
+\null\hfill \href{mailto:jsyeon1121@gmail.com}{Email : jsyeon1121@gmail.com} \\
+\null\hfill  \href{jsyeon92.github.io}{Phone : jsyeon92.github.io}   \\
+\null\hfill Skype : coows1 \\
+\vspace{-2ex}
+% & \hspace{1in} Phone:\\
+%\end{tabular}
+
+
+\vspace{1em}
+
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{RESEARCH}    & \textbf{Storage Management, File System and Operating System, Android,} \\
+  \Large{INTERESTS}    & \textbf{Distribute Storage System} \\
+     & \\
+ \Large{EDUCATION}    & \textbf{M.S., Computer Science} \\
+ 	& Chungbuk National University \\
+ 	& Advisor: Prof. Eunji Lee \\
+ 	& GPA: 4.1/4.5 \\
+	& \\
+	& \textbf{B.S., Computer Science} \\
+ 	& Chungbuk National University \\
+ 	& GPA: 3.4/4.5 \\
+%    & \parbox{5.0in}{Short description/summary of research and estimation techniques. This can be several lines long because of the paragraph box.}\\
+    & \\
+ \Large{PUBLICATIONS}    & \textbf{J. Yeon} , M. Jeong, S. Lee, E. Lee, "RFLUSH:Rethink the  Flush" \\
+    & \textit{16th USENIX Conference on File and Storage Technologies} \\
+    & \textbf{(FAST`18)}, Feb. , 2018.\\
+	& \\
+	& \textbf{J. Yeon} , M. Jeong, S. Lee, E. Lee, "Untie a Knot in a Last Stage Buffer"\\
+	& \textit{12th Eruopean Conference on Computer Systems} \textbf{(Erusys`17), Poster}, April,\\
+	& 2017\\
+	&\\
+	& E. Lee, H. Bahn, M. Jeong, S. Kim, \textbf{J. Yeon}, S. Yoo, S. H. Noh, K. G. Shin\\
+	&"Reducing Journaling Harm on Virtualized I/O Systems" \textit{9th ACM Internat}\\
+	&\textit{ional Systems and Storage Conference} \textbf{(SYSTOR`16)}, June , 2016.\\
+	&\\
+	&\textbf{J.Yeon}, J. IM, B. Jeon, S. Lee, E. lee, H. Bahn, "Design and Implementation\\
+	&of Kernel Binder Cache to Accelerate Android IPC" \textit{16th IEEE International} \\
+	&\textit{Conference on Embedded and Real-Time Computing Systems and Appliactions}\\
+	&\textbf{(RTCSA`16)}, Aug. , 2016.\\
+    & \\
+  \Large{PROJECT}   & ThinFS: An Optimized File system for Distributed Object Data Storage \\
+    \Large{EXPERIENCE}   & NRF(National Research Foundation of Korea) 2017 - 2018 \\
+     & \\
+     &Development of Performance and Endurance Tools for Flash File Systems\\
+     &ETRI(Electronics and Telecommunications Research Institute) 2015 - 2016\\    
+     &\\
+     &Designing System Software for Terabyte-Scale Flash Memory Supported by \\
+     &Main Memory Interfaces\\
+     &NRF(National Research Foundation of Korea) 2014 - 2017\\
+     & \\
+
+\end{tabular}
+
+\newpage
+
+%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%%%%%%%
+% The reference section has links to your references' websites and email addresses.
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{WORK}    & \textbf{Visiting Student} \null\hfill Feb.2018 - Feb.2018\\
+  \Large{EXPERIENCE}   & University of Wisconsin-Madison(with Prof. Ramzi) \\
+     & \\
+
+ \Large{PROGRAMMING}    & \textbf{Programming Languages} : Strong in C/C++, Python, Shell\\
+  \Large{SKILL}   & \textbf{Development Tools} : vim, git, visual studio \\
+  	& \textbf{Framework} : Linux Kernel\\
+    & \\
+ \Large{REFERENCES} & \textbf{Eunji Lee}(Assistant Professor)\\
+	&Dept. of Computer Science,\\
+	&School of Electrical and Computer Engineering\\
+	&Chungbuk National University\\
+	&1, Chungdae-ro, Seowongu, Cheongju,\\
+	&Chungbuk, 361-763, South Korea
+\end{tabular}
+
+
+
+\clearpage
+\setlength\parindent{0cm}
+\pagenumbering{gobble} %cover letter should be one page, {gobble}=no page number
+\end{document}
+

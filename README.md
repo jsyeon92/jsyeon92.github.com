@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Jeseong Yeon
 
 You can use the [editor on GitHub](https://github.com/jsyeon92/jsyeon92.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
